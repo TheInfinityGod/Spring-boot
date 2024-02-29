@@ -13,5 +13,14 @@ public class HelloController {
         //
         //save 
     }
+
+    @RequestMapping("/Hell")
+    public String hello(){
+        return "hello world";
+        //hello
+        //
+        //save 
+    }
+
     
 }
