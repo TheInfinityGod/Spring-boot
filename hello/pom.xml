@@ -17,6 +17,14 @@
 		<java.version>20</java.version>
 	</properties>
 	<dependencies>
+
+		<dependency>
+			<groupId>tv.hd3g.commons</groupId>
+			<artifactId>starter</artifactId>
+			<version>18.0.2</version>
+			<type>pom</type>
+		</dependency>
+
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
